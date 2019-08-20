@@ -19,4 +19,4 @@ A parent may pass as a property a function for the child to call, but the child 
 Consider an incremental click counter. The parent would hold the state of how many times the button had been clicked and would pass this to the component as the value of the state to be rendered. The parent could also pass an onChange handler which the click counter component would decide how and when to call. When the child is clicked it would call this onChange handler with the new value. The parent then stores the new value and again sends it back to the child as the new state to be rendered.
 
 ---
-(So how do I use it?)[/how-to-use-it.md]
+[So how do I use it?](/how-to-use-it.md)
